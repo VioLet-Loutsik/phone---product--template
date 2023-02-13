@@ -1,0 +1,14 @@
+
+.classNavigation{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(4, 57, 34);
+    height: 100px;
+}
+.styleMenu{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 40px;
+    font-size: 20px;    
+}
+

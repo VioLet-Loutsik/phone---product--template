@@ -1,0 +1,6 @@
+.mainBlock {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  border: 2px solid rgb(39, 216, 66);
+  padding: 100px 200px;
+}

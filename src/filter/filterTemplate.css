@@ -1,0 +1,18 @@
+.phoneBlock {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid rgb(39, 119, 216); */
+}
+
+.imageBlock {
+  /* border: 2px solid red; */
+  width: 320px;
+  height: 300px;
+}
+.infoBlock{
+    padding: 20px 90px;
+    
+}
+
+
+
