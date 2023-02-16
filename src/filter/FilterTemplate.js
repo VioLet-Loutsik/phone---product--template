@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./filterTemplate.css";
 
 function FilterTemplate({ id, brand, model, images }) {
@@ -10,6 +11,7 @@ function FilterTemplate({ id, brand, model, images }) {
         <p>Cod product: {id}</p>
         <p>Brand: {brand}</p>
         <p>Model: {model}</p>
+        <Link to={`/phone/${model}`}>caracteritics</Link>        
       </div>
     </div>
   );

@@ -1,11 +1,14 @@
 import FilterTemplate from "../filter/FilterTemplate";
 import { phoneData } from "../components/PhoneData";
 import React from "react";
-import './home.css';
+import "./home.css";
+
+
+
+// .filter((element) => element.model)
 
 const Home = () => {
   const filterData = phoneData
-    .filter((element) => element.model)
     .map((newelement) => {
       return (
         <FilterTemplate
@@ -16,7 +19,7 @@ const Home = () => {
         />
       );
     });
-  return  <div className="mainBlock">{filterData}</div>;
+  return <div className="mainBlock">{filterData}</div>;
 };
 
 export default Home;
