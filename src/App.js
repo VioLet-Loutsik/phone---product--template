@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import PhoneDescription from "./pages/PhoneDescription";
+import SamsungPhoto from "./pages/SamsungPhoto";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/phone/:model" element={<PhoneDescription />} />
+        <Route path="/phone/:redSamsung" element={<SamsungPhoto />} />
       </Routes>
     </BrowserRouter>
   );

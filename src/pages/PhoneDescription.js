@@ -4,11 +4,21 @@ import DescriptionTemplate from "../components/DescriptionTemplate";
 import { phoneData } from "../components/PhoneData";
 
 function PhoneDescription() {
-  const { model } = useParams();
+  const { model } = useParams(); // читает параметр из FilterTemplate 19 строка
+  console.log(useParams());
   const descriptionmap = phoneData
     .filter((elem) => elem.model === model)
     .map((e) => {
-      return <DescriptionTemplate description={e.description} />;
+      console.log(e.colorsPhone[0]);
+      return (
+        <DescriptionTemplate
+          description={e.description}
+          image={e.images}
+          colorsPhone={e.colorsPhone[0]}
+          colorsPhoneSecond={e.colorsPhone[1]}
+          colorsPhoneThird={e.colorsPhone[2]}
+        />
+      );
     });
   return (
     <div>

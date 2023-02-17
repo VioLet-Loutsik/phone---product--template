@@ -1,6 +1,10 @@
 import samsung from "../pictures/samsung.jpg";
 import xiaomi from "../pictures/xiaomi.jpg";
 import iphone from "../pictures/iphone.jpg";
+import redSamsung11First from "../pictures/redSamsung11First.jpg"
+import redSamsung11Second from "../pictures/redSamsung11.2.jpg"
+import redSamsung11Third from "../pictures/redSamsung11Third.jpg"
+
 
 export const phoneData = [
   {
@@ -10,6 +14,7 @@ export const phoneData = [
     images: samsung,
     description:
       "Samsung: Super high-resolution camera and 8K video.A blazing fast processor.First ever S Pen compatibility.3All-day intelligent battery.A striking new design.Everyday just got epic.",
+    colorsPhone: [ redSamsung11First, redSamsung11Second, redSamsung11Third ], 
   },
   {
     id: 2,
@@ -18,6 +23,8 @@ export const phoneData = [
     images: xiaomi,
     description:
       "Xiaomi Redmi Note 9 Pro is the latest smartphone announced in the month of April 2020. The smartphone is powered by the Qualcomm SM7125 Snapdragon 720G Octa-core processor.The smartphone comes in 6.67 inches size and the display is IPS LCD capacitive touchscreen that provides 1080 x 2400 pixels resolution",
+      colorsPhone: [ redSamsung11First, redSamsung11Second, redSamsung11Third ], 
+
   },
   {
     id: 3,
@@ -26,5 +33,6 @@ export const phoneData = [
     images: iphone,
     description:
       'The iPhone 11 succeeded the iPhone XR, and it features a 6.1-inch LCD display that Apple calls a "Liquid Retina HD Display." It features a 1792 x 828 resolution at 326ppi, a 1400:1 contrast ratio, 625 nits max brightness, True Tone support for adjusting the white balance to the ambient lighting, and wide color support for true-to-life colors.',
-  },
+      colorsPhone: [ redSamsung11First, redSamsung11Second, redSamsung11Third ], 
+    },
 ];
